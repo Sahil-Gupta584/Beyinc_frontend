@@ -170,10 +170,12 @@
  border-radius: 5px;
 }
 
+
+
 .actionText {
   /* font-family: Gentium Book Basic; */
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 23.14px;
   text-align: left;
   cursor: pointer;
@@ -278,11 +280,6 @@ background: var( --button-background);
 }
 
 
-@media (max-width: 639px) {
-  .icon {
-    transform: rotate(90deg);
-  }
-}
 .menu-icon-wrapper {
   @apply w-8 h-8 flex items-center justify-center overflow-hidden;
 }
